@@ -25,18 +25,59 @@
             .tab button:hover {
                 background-color: #ddd;
             }
+
         </style>
     </head>
-    <body>
+    <body style="background-color:rgb(215, 135, 231)">
         <h2>Kwame Boakye</h2>
-        <p>Welcome to my personal website!</p>
+        <p>Manifestations are the direct result of consistent action and aligning vision with the right frequency.</p>
 
         <div class="tab">
             <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+            <button class="tablinks" onclick="openCity(event, 'Work')">Work</button>
             <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
             <button class="tablinks" onclick="openCity(event, 'Resources')">Resources</button>
             <button class="tablinks" onclick="openCity(event, 'Blog')">Blog</button>
             <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
+        </div>
+
+        <div id="About" class="tabcontent">
+            <h3>About</h3>
+            <p>Visionary who takes a unique and focused approach at solving real-world problems. As someone who is very interested in the potential of what humans are capable of, I am constantly searching for new pathways and connections to be found and am very open to collaborating with other. Undergraduate student who is interested in the fields of physics, math, kinesiology, ML/DL, software engineering, quant, as well as music production. My goal is to use my strengths when it comes to creative and logical problem-solving to create and/or solve anything that is required. Mastery is made by constant repetition regardless of the good and bad reps. As someone with full knowledge of this, I’m well aware of the unknown. But the unknown is what reaps the greatest benefits</p>
+        </div>
+
+        <div id="Projects" class="tabcontent">
+            <h3>Projects</h3>
+            <ul>
+                <li>To-Do App</li>
+                <li>Twitter Bot</li>
+                <li>This Portfolio website</li>
+            </ul>
+        </div>
+
+        <div id="Resources" class="tabcontent">
+            <h3>Resources</h3>
+            <ul>
+                <li>Book Recommendations</li>
+                <li>YouTube</li>
+                <li>Useful site links</li>
+            </ul>
+        </div>
+
+        <div id="Blog" class="tabcontent">
+            <h3>Blog</h3>
+        </div>
+
+        <div id="Contact" class="tabcontent">
+            <h3>Contact</h3>
+            <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </form>
+        </div>
 
     </body>
 </html>
